@@ -1,6 +1,7 @@
-# Building Inverted Index using Hadoop
+# Auto Complete, Spell Correction and Snippet Generation
 
-Developed a piece of code for the building the inverted index for the various books. The Mapper class gave the output as the Word: docID. The reducer class took this as input and gave the output in the formal word docID: count. The merge function of google cloud was used to combine the output of reducer class to give the final output.
-<br><br>Technologies Used: Java, Hadoop on Google Cloud
+Developed a web application which displays results for a given query by calculating the page rank for NYTimes.com. The Search box also gives Auto-suggestions for queries as we type. The search engine also gives spelling suggestions for words which are incorrectly types. 
 
-The detailed description can be found here - [Description](https://github.com/parthvaghani1995/Information-Retrieval-and-Web-Search-Engines/blob/master/Building-inverted-index-using-hadoop/HW%203-Description.pdf)
+Technologies Used: Java, Solr, Apache Tika, PHP, JQuery, AJAX
+
+The detailed description can be found here - [Description](https://github.com/parthvaghani1995/Information-Retrieval-and-Web-Search-Engines/blob/master/AutoComplete-SpellCorrection-SnippetGeneration/HW5_Spellcorrect_Autocomplete_Snippets_description.pdf) and a detailed report can be found here - [Report](https://github.com/parthvaghani1995/Information-Retrieval-and-Web-Search-Engines/blob/master/AutoComplete-SpellCorrection-SnippetGeneration/Report.pdf)
